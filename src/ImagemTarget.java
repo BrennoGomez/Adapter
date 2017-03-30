@@ -12,7 +12,7 @@ public interface ImagemTarget {
 }
 
 /*
- * Utilizar um adaptador de classe n„o seria vi·vel pois precisarÌamos de um
- * adaptador para cada subclasse, j· que herdando de uma classe genÈrica n„o
- * adicionaria nada.
+ * Utilizei um adaptador de classe para introduz somente um objeto, e n√£o para n√£o
+ * ser necess√°rio o endere√ßamento indireto adicional por ponteiros para chegar at√©
+ * a classe Adaptee.
  */
